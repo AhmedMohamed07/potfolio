@@ -2,7 +2,7 @@ import React from 'react';
 import './About.css';
 import AboutImg from '../../assets/about.jpg';
 import Info from './Info';
-import CV from '../../assets/AhmedMohamedCV.pdf'
+import CV from '../../assets/AhmedMohamedCV.pdf';
 
 const About = () => {
   return (
@@ -11,7 +11,7 @@ const About = () => {
       <span className="section__subtitle">My introduction</span>
 
       <div className="about__container container grid">
-        <img src={AboutImg} alt="" className="about__img" />
+        <img src={AboutImg} alt="about" className="about__img" />
 
         <div className="about__data">
           <Info />
